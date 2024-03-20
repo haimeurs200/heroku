@@ -1,4 +1,5 @@
-requests
+
+requests2
 pandas
 psycopg2-binary
 # Django>=3.0,<4.0  # If using Django
@@ -12,4 +13,5 @@ black
 # # On other platforms/in development, the precompiled binary package is used instead, to
 # # speed up installation and avoid errors from missing libraries/headers.
 # psycopg[c]; sys_platform == "linux"
+# psycopg[binary]; sys_platform != "linux"
 # psycopg[binary]; sys_platform != "linux"
